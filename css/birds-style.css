@@ -1,0 +1,113 @@
+/* IMPORT GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif&display=swap');
+
+/* GLOBAL STYLES */
+body{
+    font-family: 'Noto Serif', serif;
+    font-size:120%;
+    font-weight:500;
+    line-height:120%;
+    background-color: #CCC;
+    background-image:url(../images/forest2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin:16px;
+    padding:10px;
+    font-family:'Noto Sans KR', 'sans-serif';
+    text-align:center;
+    color: #524949;
+}
+
+h2,h3{
+    font-size: 25px;
+    margin:12px;
+    padding:10px; 
+    font-family:'Noto Sans KR', 'sans-serif';
+    text-align:center;
+    color: #524949;
+}
+
+.sect,#mainHeader nav,#mainFooter{
+    box-shadow: 0px 0px 8px rgba(155, 194, 107, 0.6);
+    background-color:rgba(125, 173, 77, 0.302);
+    border:1px solid #b3a4d3;
+    border-radius:4px;
+    margin-top:0;
+}
+
+#mainHeader img{
+    box-shadow: 0px 0px 8px rgba(155, 194, 107, 0.6);
+    border:1px solid #b3a4d3;
+    border-radius:6px;
+}
+
+p{
+    margin:10px;
+    padding:10px;
+	color: #524949;
+}
+
+a{
+    font-size:1.2em;
+    text-decoration: none;
+    transition:0.3s ease;
+    padding:8px 15px;
+}
+   
+    a:link{
+        color: #d49c32;
+    }
+
+    a:visited{
+        color:#622a16; 
+    } 
+
+    a:hover{
+        background-color:#cfafe2;
+        border:1px solid #00aeff;
+        border-radius:8px;
+        color:#FFFFFF;
+    }
+
+section > p > a:hover{
+    border:none;
+    background-color:transparent;
+} 
+
+/*LAYOUT STYLES*/
+#container{
+    width:960px;
+    margin: 0 auto;
+    padding:20px;
+}
+
+#mainHeader nav{
+    height:80px;
+    line-height: 80px;
+    text-align:center;
+    margin-top:-4px;
+}
+
+#mainFooter{
+    height:80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+/*REUSABLE CLASSES*/
+.active{
+    background-color: #b0d2d8!important;
+    color:#321605!important;
+    border-radius:8px;
+}
+
+::selection{
+    background-color: #00ffbf;
+    color:#e42d2d;   
+}

@@ -1,0 +1,67 @@
+/* IMPORT birds-style.css */
+@import url("birds-style.css");
+
+/* GLOBAL STYLES */
+body{
+    background-color: #CCC;
+    background-image:url(../images/rainforest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #0e0e18;
+    overflow-x:hidden;
+}
+
+.sect,#mainHeader nav,#mainFooter{
+    box-shadow: 0px 0px 8px rgba(155, 194, 107, 0.6);
+    background-color:rgba(125, 173, 77, 0.3);
+    border:1px solid #badd73;
+    border-radius:4px;
+    margin-top:0;
+}
+
+#mainHeader img{
+    box-shadow: 0px 0px 8px rgba(155, 194, 107, 0.6);
+    border:1px solid #badd73;
+    border-radius:6px;
+    background-color:#bfe7974d;
+}
+
+#mainHeader nav{
+    margin-top:-4px;
+}
+
+h1,h2,h3{
+   color:#ffffff;
+}
+
+p,ul,#mainFooter,#mainHeader nav{
+    color: #ffffff;
+}
+
+ul{
+    margin:10px;
+    position:relative;
+    left:370px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a:visited{
+    color:white; 
+ } 
+
+iframe{
+    margin-top:15px;
+    border:3px solid #badd73;
+    border-radius: 6px;
+}
+
+section > p span{
+    display:inline-block;
+    margin-top:20px;
+    margin-left:380px;
+}
+

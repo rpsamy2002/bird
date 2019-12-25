@@ -1,0 +1,78 @@
+/* IMPORT birds-style.css */
+@import url("birds-style.css");
+
+/* GLOBAL STYLES */
+body{
+    background-image: url(../images/rsz_green-forest.jpg);
+    background-color: rgba(179, 164, 211,0.4);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    width:360px;   
+    background-color: #f0e6e6;
+    color:#000000; 
+    margin-left: 310px;
+    padding:15px;
+    border-radius:8px;
+}
+
+section,#mainHeader nav,#mainFooter{
+    box-shadow: 0px 0px 8px rgba(155, 194, 107, 0.6);
+    background-color:rgba(231, 240, 230, 0.5); 
+    border:1px solid #b3a4d3;
+    border-radius:4px;
+}
+
+#mainHeader nav{
+    background-color: #f0e6e6;
+}
+
+.section1,#mainFooter{
+    margin-top:0;
+}
+
+form{
+    width:500px;
+    margin-left:250px;
+}
+
+form input{
+    margin-left:10px;
+    margin-bottom:2px;
+    width:220px;
+    height:15px;
+    padding:10px;
+    font-size:18px;
+    background-color: #fafafa;
+    border-radius:8px;
+}
+
+textarea{
+    margin-top:8px;
+    background-color: #fafafa;
+    border-radius:10px;
+}
+
+input[type=email]{
+    margin-left:56px;   
+}
+
+input[name=lastName]{
+    margin-left:14px;   
+}
+
+input[type=submit]{
+    width:100px;
+    height:45px;
+    background-color: #f1ece5;
+    margin-left:-1px;
+}
+
+iframe{
+    margin-top:15px;
+    border:2px solid #a8b4b6;
+    border-radius: 6px;
+} 
